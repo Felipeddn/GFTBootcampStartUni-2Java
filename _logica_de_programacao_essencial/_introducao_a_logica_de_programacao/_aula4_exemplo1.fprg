@@ -4,20 +4,21 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="felip"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2021-01-09 11:25:50 "/>
+        <attribute name="saved" value="2021-06-09 08:04:02 "/>
         <attribute name="created" value="ZmVsaXA7TEFQVE9QLUJHMzZQTzJMOzIwMjEtMDEtMDk7IjExOjIzOjA4ICI7Mjc0OQ=="/>
         <attribute name="edited" value="ZmVsaXA7TEFQVE9QLUJHMzZQTzJMOzIwMjEtMDEtMDk7IjExOjI1OjUwICI7MTsyODU2"/>
+        <attribute name="edited" value="ZmVsaXA7REVTS1RPUC0yUlRFR01GOzIwMjEtMDYtMDk7IjA4OjA0OjAyICI7MzsyOTEz"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="a, b, c" type="Integer" array="False" size=""/>
-            <assign variable="a" expression="2"/>
-            <assign variable="b" expression="a + 3"/>
-            <assign variable="c" expression="a + b"/>
-            <output expression="a" newline="True"/>
-            <output expression="b" newline="True"/>
-            <output expression="c" newline="True"/>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="2"/>
+            <assign variable="B" expression="A + 3"/>
+            <assign variable="C" expression="A + B"/>
+            <output expression="A" newline="True"/>
+            <output expression="B" newline="True"/>
+            <output expression="C" newline="True"/>
         </body>
     </function>
 </flowgorithm>
