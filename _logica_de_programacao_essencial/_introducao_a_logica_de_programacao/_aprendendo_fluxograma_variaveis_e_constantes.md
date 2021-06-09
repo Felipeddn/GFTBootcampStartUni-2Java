@@ -1,4 +1,4 @@
-# Introdução à lógica de programação - Aula 3 - Professor Denilson Bonati
+# Aprendendo fluxograma, variáveis e constantes - Aula 3 - Professor Denilson Bonati
 
 * Entender o que é um fluxograma
 
@@ -15,30 +15,49 @@
 - Um `pseudocódigo` de calculo de média de uma nota.
 
 Inicio
+
 DECLARA nota 1: número
+
 DECLARA nota 2: número
+
 DECLARA nota 3: número
+
 DECLARA nota 4: número  
+
 DECLARA média: número
+
 LEIA (nota1)
+
 LEIA (nota2)
+
 LEIA (nota3)
+
 LEIA (nota4)
+
 média=(nota1+nota2+nota3+nota4)/4
+
 IMPRIMIR (média)
+
 FIM
 
 Quatro tipos básicos de dados
 Numéricas, caracteres, alfanúmericas, lógicas.
 
-Constantes são valores imutaveis e não são alterados durante a vida útil do programa.
+Constantes são valores imutáveis e não são alterados durante a vida útil do programa.
 
 - Um `pseudocódigo` de uma constante
 
 INÍCIO
+
 DECLARA pi = 3,1415
+
 DECLARA raio = número
+
 FIM
 
 * Exercicio 1 aula 3
+
+link do flowgorithm
+
+http://www.flowgorithm.org/
 

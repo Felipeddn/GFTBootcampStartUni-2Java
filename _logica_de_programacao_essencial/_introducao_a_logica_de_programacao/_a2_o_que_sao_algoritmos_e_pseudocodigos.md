@@ -13,36 +13,56 @@
 
     "Pseudocódigo é uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples (nativa, ou seja, em português a quem o escreve, de forma a ser entendida por qualquer pessoa)".
 
+* Desafio do Lobo
+
     https://www.proprofsgames.com/wolf-sheep-and-cabbage/
 
 * Exercicio final 
 
 - 1 -> Crie um algoritmo do seu dia:
+
     acordo 
+
     abro o olho
+
     penso um pouco sobre levantar
+
     `se` o clima estiver quente 
+
         levanto rapido
         analiso se estou com muito calor
         `se` eu estiver
-            troco de roupa para algo mais confortavel
+            troco de roupa para algo mais confortável
+
     `se` o clima estiver frio 
-            levo mais tempo para levantar
+
+        levo mais tempo para levantar
         analiso se estou com muito frio
         `se` eu estiver 
             troco de roupa para algo mais confortavel
     penso se escovo os dentes antes ou depois do café da manha
+
     `se` sim 
+
         escovo os dentes
+
     `se` não 
+
         tomo o café
         escovo os dentes
+
     penso se tomo um banho
+
     `se` achar que preciso
+
         tomo um banho
+
     `se` não 
+
         não tomo um banho
+
     **caso** dia da semana      
+
         **faco** verificações de itens da bolsa 
             itens da bolsa recebe = [carregador de notebook, notebook, carregador do celular, celular, game portatil, carregador de game portatil]
             `se` sim  
@@ -159,6 +179,7 @@
         durmo
         talvez sonho
     **caso** final de semana ou feriado
+
         as possibilidades são imensas e prefiro abstrair essa descrição    
         `se` eu estiver na casa da minha tia ao entardecer
             subo em direção a casa do meu pai
@@ -188,13 +209,16 @@
 
 
 - 2 -> Abra o site https://studio.code.org/s/mc/stage/1/puzzle/1 e resolva em menos de uma hora!
+
     inicio 22:03 07/01/2021
+
         hora do código do minecraft 1
             quando executar
             avance
             avance
             executar
             concluido            
+
         hora do código do minecraft 2
             quando executar
             avance
@@ -202,6 +226,7 @@
             destrua o bloco
             executar
             sucesso
+
         hora do código do minecraft 3
             quando executar 
             avance
@@ -212,6 +237,7 @@
             tosar 
             executar
             concluido
+
         hora do código do minecraft 4
             quando executar
             avance
@@ -230,6 +256,7 @@
             destrua o bloco
             executar
             concluido
+
         hora do código do minecraft 5
             quando executar
             repita `4` vezes
@@ -238,6 +265,7 @@
                 avance
             executar
             concluido
+
         hora do código do minecraft 6 nivel dificil
             quando executar
             repita `2` vezes 
@@ -265,6 +293,7 @@
                 colocar tábuas de bétula 
             executar
             concluido
+
         hora do código do minecraft 7 
             quando executar
             repita `6` vezes
@@ -282,6 +311,7 @@
                 plantar
             executar
             concluido
+
         hora do código do minecraft 8
             quando executar
             vire a esquerda
@@ -296,6 +326,7 @@
                 avance
             executar
             concluido
+
         hora do código do minecraft 9
             quando executar
             vire a esquerda
@@ -306,6 +337,7 @@
             coloque a tocha
             executar
             concluido
+
         hora do código do minecraft 10
             quando executar
             avance 
@@ -319,6 +351,7 @@
                 avance
             executar
             concluido
+
         hora do código do minecraft 11
             quando executar
             repita `7` vezes
@@ -330,6 +363,7 @@
                 avance
             executar
             concluido
+
         hora do código do minecraft 12
             quando executar
             repita `3` vezes 
@@ -345,6 +379,7 @@
                 vire a esquerda
             executar
             concluido
+
         hora do código do minecraft 13
             quando executar
             vire a direita
@@ -359,6 +394,7 @@
                 avance
             executar
             concluido
+
         hora do código do minecraft 14
             quando executar
             repita `3` vezes 
@@ -378,97 +414,117 @@
 - 3  -> Abra o site https://rachacuca.com.br/jogos/pinguins-numa-fria/ e resolva anotando os passos para isso 
 
     **suba** no gelo 
+
         o pinguim **filhote azul**
         o pinguim **filhote verde**
         
     atravesse o gelo flutuante 
 
     **desca** do gelo
+
         o pinguim **filhote azul**
 
     atravesse o gelo flutuante
 
     **suba** no gelo 
+
         o pinguim **filhote vermelho**
 
     atravesse o gelo flutuante
 
     **desca** do gelo
+
         o pinguim **filhote verde**
 
     atravesse o gelo flutuante
 
     **desca** do gelo 
+
         o penguim **filhote vermelho**
 
     **suba** no gelo 
+
         o penguim **adulto azul**
     
     atravesse o gelo flutuante
 
     **suba** no gelo 
+
         o penguim **fihote azul**
 
     atravesse o gelo flutuante
 
     **desca** do gelo
+
         o penguim **adulto azul**
         o penguim **filhote azul**
 
     **suba** no gelo 
+
         o penguim **adulto verde**
 
     atravesse o gelo flutuante
 
     **desca** do gelo 
+
         o pinguim **adulto verde**
 
     **suba** no gelo 
+
         o penguim **filhote verde**
     
     atravesse o gelo flutuante
 
     **suba** no gelo 
+
         o penguim **filhote azul**
 
     atravesse o gelo flutuante
 
     **desca** do gelo
+
         o penguim **filhote verde**
 
     atravesse o gelo flutuante
 
     **desca** do gelo 
+
         o penguim **fihote azul**
 
     **suba** no gelo 
+
         o penguim **filhote vermelho**
         o penguim **adulto vermelho**
 
     atravesse o gelo flutuante
 
     **desca** do gelo
+
         o penguim **adulto vermelho**
 
     atravesse o gelo flutuante
 
     **suba** no gelo
+
         o penguim **filhote azul**
 
     atravesse o gelo flutuante
 
     **desca** do gelo
+
         o penguim **filhote vermelho**
 
     atravesse o gelo flutuante
 
     **suba** no gelo 
+
         o penguim **adulto azul**
 
     atravesse o gelo flutuante
 
     **desca** do gelo
+
         o penguim **adulto azul**
         o penguim **filhote azul**
     
-    concluido
+    concluído
