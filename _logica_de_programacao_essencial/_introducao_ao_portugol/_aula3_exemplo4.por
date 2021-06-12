@@ -18,6 +18,7 @@ programa
 		pare
 		caso 3:
 			escreva("\nOk, abrindo HBO Go")	
+		pare
 		
 		caso 4:
 			escreva("\nOk, Saindo...")	
@@ -33,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 477; 
+ * @POSICAO-CURSOR = 409; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

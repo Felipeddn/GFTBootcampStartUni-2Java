@@ -35,7 +35,7 @@ programa
 		// caso a média seja menor que 7 será executado o código abaixo
 		
 		senao {
-			escreva("\n" + aluno + "Infelizmente você foi reprovado :(")	
+			escreva("\n" + aluno + " Infelizmente você foi reprovado :(")	
 		}
 		
 	}
@@ -45,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 823; 
+ * @POSICAO-CURSOR = 914; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

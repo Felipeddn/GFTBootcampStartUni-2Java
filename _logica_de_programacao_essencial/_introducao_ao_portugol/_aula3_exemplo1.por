@@ -22,9 +22,10 @@ programa
 
 		escreva ("O aluno " + aluno + " obteve a média: " + media)
 		
-		se(media >= 7){
+		se(media >= 7)
+		{
 				escreva ("\n" + "Parabéns " + aluno + " Você foi aprovado!!")
-			}
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -32,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 573; 
+ * @POSICAO-CURSOR = 571; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
