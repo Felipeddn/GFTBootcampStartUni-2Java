@@ -16,7 +16,7 @@ programa
 		{
 			resultado = numero * contador
 			escreva (numero + " x " + contador + " = " + resultado + "\n")
-			contador ++
+			contador++
 		} 
 		enquanto ( contador <= limite)
 	}
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 345; 
+ * @POSICAO-CURSOR = 423; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

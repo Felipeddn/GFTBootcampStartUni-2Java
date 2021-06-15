@@ -14,7 +14,7 @@ programa
 		{
 			resultado = numero * contador
 			escreva (numero + " x " + contador + " = " + resultado + "\n")
-			contador ++
+			contador++
 		} 
 		enquanto ( contador <= limite)
 	}
