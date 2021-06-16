@@ -1,0 +1,46 @@
+Essas anotações foram realizadas através do terminal usando o comando nano e o nome do arquivo é incrível saber que o windows tem o nano quando instalamos o git.
+
+Total de horas baseado no site da dio: 63 horas somando e 82 horas previsto no inicio do bootcamp
+
+Prazo 19/07
+Data de anotação do controle de prazo -> 15/06 
+considerando dia 16/06 terei 34 dias 
+
+ou 82 horas / 34 dias = 2,42 dia ou 2 horas e 25 minutos
+
+dedicação miníma: 2 horas e 25 minutos
+
+dedicação segura: 3 horas e 37 minutos
+
+dedicação tranquilizadora: 4 horas e 50 minutos
+
+Práticar período de estágio: 6 horas
+
+Práticar um horario de trabalho: 8 horas
+
+16 atividades
+
+atividades 3/16 
+
+Boas vindas ao Bootcamp GFT Start #2 Java [x] 1 hora Básico
+Bem vindo à DIO [x] 1 hora Básico
+Lógica de Programação Essencial [x] 4 horas Básico
+Aprenda o que são Estruturas de Dados e Algoritmos [] 2 horas Intermediário
+Introdução ao Git e GitHub [] 5 horas Básico
+Conceitos e melhores práticas com bancos de dados PostgreSQL [] 9 horas Básico
+Desenvolvimento Basico em Java [] 9 horas Básico
+Java - Trabalhando com Collections [] 6 horas Básico
+Desafios Matemáticos em Java [] tempo não informado Básico	 DESAFIO
+Desenvolvimento Avançado em Java [] 8 horas Avançado
+Introdução ao framework Spring Boot [] 2 horas Intermediário
+Desenvolvendo um Sistema de Gerenciamento de pessoas em API REST com Spring Boot [] 6 horas Intermediário
+Solucionando Desafios em Java [] tempo não informado Intermediário 	DESAFIO
+Introdução Prática a Computação em Nuvem Usando AWS [] 2 horas Intermediário
+Aprenda a Aplicar Testes Com Java [] 2 horas Intermediário
+Desenvolvimento de Testes Unitários Para Validar Uma API REST de Gerenciamento de Estoques de Cerveja [] 6 horas Avançado
+
+registro de prática 
+15/06 1 hora e 22 minutos //
+a partir do dia 16/06 isso será monitorado e terá relevância extrema!
+
+
