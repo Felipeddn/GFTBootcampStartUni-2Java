@@ -43,6 +43,8 @@ para confirmar a instalação do git no linux use o comando:
 ele precisa retornar uma mensagem parecida com essa:
 git version 2.25.1
 
+Para demonstrar que foi realizada a instalação no Linux, baixei o git, instalei e modifique essa linha em uma máquina virtual.
+
 * Instalando em MacOS
 
 acesse o site https://git-scm.com/download/mac
