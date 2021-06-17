@@ -45,6 +45,8 @@ git version 2.25.1
 
 Para demonstrar que foi realizada a instalação no Linux, baixei o git, instalei e modifique essa linha em uma máquina virtual.
 
+Usei o tutorial desse site para trabalhar um pouco sobre clone de projeto para atualizar o repositório remoto e local do Linux na máquina virtual https://www.lambda3.com.br/2016/02/mantendo-um-fork-atualizado-no-github/
+
 * Instalando em MacOS
 
 acesse o site https://git-scm.com/download/mac
