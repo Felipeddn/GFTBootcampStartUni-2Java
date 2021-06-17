@@ -20,12 +20,12 @@ Práticar um horario de trabalho: 8 horas
 
 16 atividades
 
-atividades 3/16 
+atividades 4/16 
 
 Boas vindas ao Bootcamp GFT Start #2 Java [x] 1 hora Básico
 Bem vindo à DIO [x] 1 hora Básico
 Lógica de Programação Essencial [x] 4 horas Básico
-Aprenda o que são Estruturas de Dados e Algoritmos [] 2 horas Intermediário
+Aprenda o que são Estruturas de Dados e Algoritmos [x] 2 horas Intermediário
 Introdução ao Git e GitHub [] 5 horas Básico
 Conceitos e melhores práticas com bancos de dados PostgreSQL [] 9 horas Básico
 Desenvolvimento Basico em Java [] 9 horas Básico
@@ -42,5 +42,9 @@ Desenvolvimento de Testes Unitários Para Validar Uma API REST de Gerenciamento 
 registro de prática 
 15/06 1 hora e 22 minutos //
 a partir do dia 16/06 isso será monitorado e terá relevância extrema!
+
+16/06 6 horas e 23 minutos (Estágio) -> show de bola mas acho que pulei um curso! 
+
+de Git e GitHub 
 
 

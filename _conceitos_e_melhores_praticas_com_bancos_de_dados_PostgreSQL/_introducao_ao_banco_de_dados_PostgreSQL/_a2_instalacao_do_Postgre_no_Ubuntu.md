@@ -150,8 +150,3 @@ e executei o comando:
 e funcionou, abri o link que apareceu na linha de comando do terminal.
 
 Tudo certo novamente ;) só alegria nessa aula apesar dos desafios.
-
-
-
-
-
