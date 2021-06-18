@@ -24,24 +24,30 @@ arquivos que o git sabe que existe mas não está monitorando seu estado de muda
 ## O que é um repositório?
 
 * Ambiente de Desenvolvimento 
-1. Working Directory?
-2. Staging area?
+É o ambiente onde o programador trabalha com o código
+1. Working Directory  
+Pasta onde está o código que está sendo editado sem o monitoramento do Git.
+2. Staging area  
+A partir desse momento o arquivo está sendo monitorado para o Git mas não foi salvo pelo git um estado para ser recuperado
 3. Local repository?
 
 * Servidor
 1. Remote repository (GitHub)
+Servidor é um computador onde armazena os códigos online. Servidor é qualquer computador que compartilha documentos na internet.
 
-comando para saber os estados dos arquivos:
-**git status**
+comando para saber os estados dos arquivos:  
+**git status** - com esse comando é possível ver se os arquivos estão untracked, modified, staged, entre outros.    
 
-comando para criar diretorios:
+comando para criar diretorios:  
 **mkdir** nome_do_diretório
 
-comando para mover arquivos entre diretorios:
+comando para mover arquivos entre diretorios:  
 **mv** nome_do_arquivo nome_do_diretorio_destino
 
-comando para retornar os arquivos e diretorios para untracked 
+comando para retornar os arquivos e diretorios para untracked  
 **git restore** `--staged`
 
 comando para adicionar todos os arquivos do diretório para ser salvo seus estados no git.
-**git add** *
+**git add** nome_do_arquivo
+
+**git commit -am** é uma forma de adicionar os arquivos e já adicionar a mensagem para saber qual momento está sendo guardado pelo Git.
