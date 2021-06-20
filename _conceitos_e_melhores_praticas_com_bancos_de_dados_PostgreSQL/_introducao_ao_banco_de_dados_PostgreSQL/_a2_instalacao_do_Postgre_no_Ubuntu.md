@@ -42,6 +42,11 @@ Sucesso. Você pode iniciar o servidor de banco de dados utilizando:
 
 Então imagino estar tudo ok com a instalação e vou considerar instalado!
 
+Mas para ter certeza pesquisei e encontrei o seguite comando para verificar se ele está instalado e qual versão  
+Link da pesquisa: https://www.hostinger.com.br/tutoriais/instalar-postgresql-ubuntu  
+**sudo -u postgres psql -c "SELECT version();"**
+
+
 O Postgree possui alguns comandos facilitados exclusivo do Linux.
 
 digitei os comandos para acessar meu diretório de usuario
@@ -49,8 +54,11 @@ digitei os comandos para acessar meu diretório de usuario
 **cd /** </br>
 **cd home/felipe**
 
-agora no diretório correto digitei o comando orientado na aula para criar um cluster </br>
+Agora no diretório correto digitei o comando orientado na aula para criar um cluster </br>
 pg_createcluster -d /home/postgres/aula 13 aula --start
+
+O parametro -d é pra dizer onde desejo armazenar o cluster.
+A flag --start é para iniciar o cluster, sem ela o cluster será apenas criado.
 
 após esse comando recebi o retorno do terminal dizendo o diversas mensagens vou destacar essa:
 
@@ -95,6 +103,9 @@ Tudo ok ;)
 
 pgAdmin
 
+Esse tutorial também ensina a instalar e parece bem interessante:  
+https://www.tecmint.com/install-postgresql-and-pgadmin-in-ubuntu/
+
 Interface gráfica para interagir com o banco de dados. </br>
 https://www.pgadmin.org
 
@@ -114,7 +125,7 @@ Então uma sugestão procurando na internet é que eu não tinha a ferramenta cu
 https://www.cyberciti.biz/faq/how-to-install-curl-command-on-a-ubuntu-linux/
 
 segui os passos do site acima: </br>
-**sudo apt upgrade && sudo apt update** </br>
+**sudo apt update && sudo apt upgrade** </br>
 **sudo apt install curl**
 
 após esses comandos executei os comandos do link para instalar o pgAdmin </br>
@@ -150,3 +161,5 @@ e executei o comando:
 e funcionou, abri o link que apareceu na linha de comando do terminal.
 
 Tudo certo novamente ;) só alegria nessa aula apesar dos desafios.
+
+Assisti a aula novamente para fixar os conhecimentos e o comando pgadmin4 não está funcionando. Porém consigo abrir ele na interface gráfica bem estranho isso.
