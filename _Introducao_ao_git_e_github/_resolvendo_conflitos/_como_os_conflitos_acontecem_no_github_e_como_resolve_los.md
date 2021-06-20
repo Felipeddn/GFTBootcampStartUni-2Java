@@ -44,6 +44,8 @@ e por fim colocamos o comando que salva o estado do arquivo:
 e atualizamos o repositório remoto:  
 **git push** `origin master (main)`  
 
+Pelo pouco que entendi a gente abre o arquivo onde os conflitos existem e editamos com o que desejamos que permaneça no arquivo. Salvamos esse arquivo e seguimos os comandos **git add** `*`, **git commit** `-m` "descrição das mudanças" e **git push** `origin master (main)`.
+
 ## Clonando um repositório remoto
 No github escolhemos um projeto que desejamos obter localmente (em nosso computador), existem diversas formas de obter esse conteúdo, incluido até fazer o download do arquivo compactado no formato .zip, o que faremos é copiar usando o URL do projeto e tranferir para nossa máquina através do protocolo HTTPS 
 
@@ -60,7 +62,7 @@ e podemos verificar o repositório remoto que ele aponta com o comando:
 **git remote** `-v`
 
 ## As competencias e conhecimentos que você provavelmente possui após o fim desse curso
-1. Iniciar um repositório git entendendo os objetos que são gerados e sua complexidade
+1. Iniciar um repositório git entendendo os objetos que são gerados e sua complexidade.
 2. Entendeu o conceito de iniciar um repositório através do comando **git init** e o que significa um versionamento de códigos.
 3. Entedeu o que é um sistema de versionamento de código
 4. Entendeu a diferença entre o Git e GitHub
