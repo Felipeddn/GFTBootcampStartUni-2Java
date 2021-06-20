@@ -19,10 +19,14 @@ eles ocorrem quando modificações ocorrem na mesma linha, entre o repositório 
 Essa linha foi inserida para testar os conflitos entre repositórios remotos e locais no git e GitHub.
 Essa linha foi gerada no VsCode.
 
-
-
 Os conflitos foram gerados e foi recomendado usar o seguinte comando:  
 **git pull** `origin` `master`
+
+Sobre o git pull existe essa recomendação para ser lida quando eu tiver tempo:  
+https://longair.net/blog/2009/04/16/git-fetch-and-merge/
+
+O link acima foi retirado do seguinte local:  
+https://qastack.com.br/programming/292357/what-is-the-difference-between-git-pull-and-git-fetch#:~:text=git%20fetch%20basta%20%22baixar%22%20as,mescla%20em%20sua%20filial%20atual.
 
 No meu caso ele resolveu os conflitos gerados de forma automática pelo que parece porque ao usar o comando git pull ele retornou isso:  
 **Merge made by the 'recursive' strategy.**

@@ -77,7 +77,7 @@ Modelar é o ato de criar um modelo, esse modelo pode explicar as característic
 
 Modelo de dados são ferramentas que vão permitir, que vão demonstrar como as estruturas de dados estão organizadas e como se relacionam entre si.
 
-O modelo relacional é o modelo de dados representativo que se baseia no principio que todos esses dados serão armazenados em tabelas com linhas e colunas.
+O modelo relacional é o modelo de dados representativo que se baseia no princípio que todos esses dados serão armazenados em tabelas com linhas e colunas.
 
 ## Modelo Relacional
 

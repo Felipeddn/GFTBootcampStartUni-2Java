@@ -47,11 +47,18 @@ a partir do dia 16/06 isso será monitorado e terá relevância extrema!
 
 de Git e GitHub 
 
-17/06 4 horas e 20 minutos (dedicação segura) -> retomei a revisão de curso de git foi importante 
+17/06 
+4 horas e 20 minutos (dedicação segura) -> 
+retomei a revisão de curso de git foi importante 
 praticar alguns conceitos e testar a maquina virtual clonando um projeto o resultado foi bem 
 positivo, se tivesse focado mais duas horinhas estaria com o certificado compartilhado no linkedin
 e voltaria o foco para o curso de PostgreSQL, mas nem tudo são flores o importante foi o progresso
 de hoje e a dedicação segura.
 
+19/06 -> Finalizei o Curso de Git e GitHub, revisei a aula de PostgreSQL
+03 horas e 10 minutos (dedicação miníma)
+Após um dia sem revisitar o projeto terminei o curso de Git e GitHub e revisei o curso de PostgreSQL
+importante ficar de olho nesse progresso porque hoje foi dedicação mínima então melhor subir pelo menos
+para uma posição confortável do projeto de pelo menos dedicação confortável.
 
 
