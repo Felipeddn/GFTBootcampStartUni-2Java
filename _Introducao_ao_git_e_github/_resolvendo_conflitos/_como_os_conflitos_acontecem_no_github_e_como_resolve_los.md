@@ -17,6 +17,9 @@ eles ocorrem quando modificações ocorrem na mesma linha, entre o repositório 
 
 ## Exemplos práticos
 
+Estou adicionando essa linha para verificar a questão de conflito entre o repositório remoto e repositório local no Git + Github.
+A linha acima foi criada no GitHub.
+
 # Resolvendo Conflitos
 Escolhemos qual modificação manter, incluimos o arquivo com:
 **git add** `*`
