@@ -20,8 +20,19 @@ Essa linha foi inserida para testar os conflitos entre repositórios remotos e l
 Essa linha foi gerada no VsCode.
 
 
-Estou adicionando essa linha para verificar a questão de conflito entre o repositório remoto e repositório local no Git + Github.
-A linha acima foi criada no GitHub.
+
+Os conflitos foram gerados e foi recomendado usar o seguinte comando:  
+**git pull** `origin` `master`
+
+No meu caso ele resolveu os conflitos gerados de forma automática pelo que parece porque ao usar o comando git pull ele retornou isso:  
+**Merge made by the 'recursive' strategy.**
+
+Depois que usei o comando git status nada de diferente foi retornado.
+
+quando fui salvar a mensagem apareceu:      
+Falha ao salvar '_como_os_conflitos_acontecem_no_github_e_como_resolve_los.md': o conteúdo do arquivo é mais recente. Compare sua versão com o conteúdo do arquivo ou substitua o conteúdo do arquivo pelas suas alterações.
+
+Pelo Vs Code ficou confuso essa etapa porque o editor do VS Code tem ferramentas gráficas para solucionar esse problema.
 
 # Resolvendo Conflitos
 Escolhemos qual modificação manter, incluimos o arquivo com:  
