@@ -20,6 +20,9 @@ Essa linha foi inserida para testar os conflitos entre repositórios remotos e l
 Essa linha foi gerada no VsCode.
 
 
+Estou adicionando essa linha para verificar a questão de conflito entre o repositório remoto e repositório local no Git + Github.
+A linha acima foi criada no GitHub.
+
 # Resolvendo Conflitos
 Escolhemos qual modificação manter, incluimos o arquivo com:  
 **git add** `*`
