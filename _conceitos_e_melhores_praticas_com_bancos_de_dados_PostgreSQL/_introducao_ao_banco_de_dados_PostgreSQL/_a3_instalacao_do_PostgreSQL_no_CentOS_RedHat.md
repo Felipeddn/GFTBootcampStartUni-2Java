@@ -8,6 +8,18 @@ https://www.youtube.com/watch?v=Vz92ycqn9wk&list=PLucm8g_ezqNqz-DVT9n_z-XjRkQ03m
 Link para download da imagem CentOS 8:  
 https://centos.org/download/
 
+Na imagem `_aula_download_do_centos.png` é possível ver a parte que acessa as mirror para download do sistema operacional , na mirror cliquei no link destacado na imagem `_aula3_mirror_do_download.png`, escolhi o arquivo que está destacado na imagem `_aula3_arquivo_do_download.png`. Esses passos levou um tempo para ser compreendido, mas a parte mais demorada foi o download, em uma internet boa provavelmente não levará muito tempo para fazer esses passos.
+
+Além disso existe um processo necessário para fazer o sistema operacional CentOS ficar com a tela cheia na Virtualização e essa foi a melhor solução que encontrei para isso:  
+https://www.tecmint.com/install-virtualbox-guest-additions-on-centos-8/
+
+Agora com a máquina virtual preparada com o sistema operacional acredito que a aula da instalação do postgree poderá ser realizado tranquilamente.
+
+Para o download do Postgree o link provavelmente é esse:  
+https://www.postgresql.org/download/linux/redhat/
+
+Instalação a partir do CentOS. As etapas abaixo foram realizadas em uma máquina virtual com CentOS 8.
+
 Para dar continuidade no projeto de instalações em sistemas operacionais foi necessário clonar o Repositório porém o github dos sistemas operacionais das maquinas virtuais e do meu sistema operacional principal são diferentes por esse motivo tive que consultar algo externo a solução da aula em si mas que me ajudou muito.  
 https://medium.com/@gabrielgelado/git-adicionando-um-reposit%C3%B3rio-remoto-ao-seu-projeto-5d5a2cacff0b
 https://pt.stackoverflow.com/questions/39806/alterando-caminho-remoto-no-git
