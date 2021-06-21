@@ -9,5 +9,5 @@ Link para download da imagem CentOS 8:
 https://centos.org/download/
 
 Para dar continuidade no projeto de instalações em sistemas operacionais foi necessário clonar o Repositório porém o github dos sistemas operacionais das maquinas virtuais e do meu sistema operacional principal são diferentes por esse motivo tive que consultar algo externo a solução da aula em si mas que me ajudou muito.  
-https://pt.stackoverflow.com/questions/39806/alterando-caminho-remoto-no-git
+https://medium.com/@gabrielgelado/git-adicionando-um-reposit%C3%B3rio-remoto-ao-seu-projeto-5d5a2cacff0b
 
