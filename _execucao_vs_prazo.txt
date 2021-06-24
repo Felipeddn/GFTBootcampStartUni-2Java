@@ -1,4 +1,5 @@
-Essas anotações foram realizadas através do terminal usando o comando nano e o nome do arquivo é incrível saber que o windows tem o nano quando instalamos o git.
+Essas anotações foram realizadas através do terminal usando o comando nano e o nome do arquivo 
+é incrível saber que o Windows tem o nano quando instalamos o git.
 
 Total de horas baseado no site da dio: 63 horas somando e 82 horas previsto no inicio do bootcamp
 
@@ -61,4 +62,9 @@ Após um dia sem revisitar o projeto terminei o curso de Git e GitHub e revisei 
 importante ficar de olho nesse progresso porque hoje foi dedicação mínima então melhor subir pelo menos
 para uma posição confortável do projeto de pelo menos dedicação confortável.
 
+21/06 -> Instalação do PostgreSQL em sistemas Linux e Windows finalizados.
+3 horas e 27 minutos (dedicação miníma)
+Finalizei as instalações, apesar do período de tempo estar em dedicação miníma eu acabei deixando de 
+monitorar um tempo, comecei a estudar mas não monitorei esse tempo o que me deixa na categoria de dedicação
+segura.
 
