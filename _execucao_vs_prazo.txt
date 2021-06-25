@@ -68,3 +68,8 @@ Finalizei as instalações, apesar do período de tempo estar em dedicação min
 monitorar um tempo, comecei a estudar mas não monitorei esse tempo o que me deixa na categoria de dedicação
 segura.
 
+24/06 -> Usando o PostgreSQL e PGAdmin4
+06 horas e 27 minutos (período de estágio)
+Fiz configurações no PostgreSQL para conectar ao PGAdmin4 e deu tudo certo porém as anotações das aulas foram perdidas por conta de um problema
+na máquina virtualizada.
+
