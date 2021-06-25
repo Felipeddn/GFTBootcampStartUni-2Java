@@ -17,14 +17,36 @@ O primeiro arquivo que iremos editar é o postgresql.conf
 
 No Ubuntu ele fica localizado no diretório etc/postgresql/versao/nome_do_cluster
 
+No CentOS está um pouco dificil achar o local do arquivo postgresql.conf no diretório PGDATA. </br>
+https://www.google.com/search?q=onde+fica+o+arquivo+postgresql.conf+do+postgresql+no+centos+8&client=firefox-b-e&ei=90rWYIXxIcfU1sQPp-m8uA8&oq=onde+fica+o+arquivo+postgresql.conf+do+postgresql+no+centos+8&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAghEApKBAhBGABQ6XRYo-gBYKSVAmgJcAJ4AIABhwOIAbsvkgEINC4zOS4xLjKYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=gws-wiz&ved=0ahUKEwjFyJ_L3bPxAhVHqpUCHac0D_cQ4dUDCA0&uact=5
+
+O link acima me ajudou a achar a resposta e segue o caminho do arquivo postgresql.conf no Cent0S
+
+NO CentOS o caminho do arquivo fica var/lib/pgsql/versao/data/postgresql.conf
+Para abrir o arquivo e edita-lo basta usar o comando: </br>
+**sudo nano var/lib/pgsql/versao/data/postgresql.conf**
+
 iremos editar esse arquivo no tópico connections e authentication
 
 Na configuração listen_addresses mudando a valor 'localhost' para '*', lembrando que esse comando libera o banco de dados para qualquer 
 pessoa acessar, isso em produção é totalmente inseguro e nunca deve ser feito, fazemos isso apenas em ambiente de desenvolvimento ou para
 fins de aprendizado.
 
-Agora podemos fazer a conexão com o banco de dados através dos comandos:  
+No Ubuntu o comando executado no vídeo para verificar a situação dos clusters foi: </br>
+**pg_lsclusters**
+
+No CentOS não sei dizer qual o equivalente então fiz uma pesquisa na internet:
+
+Para verificar o status do banco de dados no CentOS devemos usar o comando: </br>
+**systemctl status postgresql-versao**
+
+Agora podemos fazer no Ubuntu a conexão com o banco de dados através dos comandos:  
 **psql**  
+
+O comando psql não funciona no Linux CentOS.
+
+Para se conectar ao banco de dados é necessario outro comando: </br>
+
 
 No Windows basta usar o prompt do comando para o caminho do binário ou adicionar o diretório ao path para usar o comando como no linux.
 
@@ -100,3 +122,7 @@ File
 * Preferências -> 
 * Reset layout  - para trabalhar com a aparência do PGAdmin
 * Lock layout   - para trabalhar com a aparência do PGAdmin
+
+`Como o linux ubuntu não salvou o arquivo vou aproveitar para rever a aula práticando no CentOS`
+
+
