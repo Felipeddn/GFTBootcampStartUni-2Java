@@ -73,3 +73,11 @@ segura.
 Fiz configurações no PostgreSQL para conectar ao PGAdmin4 e deu tudo certo porém as anotações das aulas foram perdidas por conta de um problema
 na máquina virtualizada.
 
+25/06 -> Usando o PostgreSQL e PGAdmin4 dia dois Conceitos
+3 horas e 32 minutos (dedicação miníma) -> sigo pelo menos entregando dentro do prazo o que é 
+positivo. Semana que vem é uma excelente oportunidade de acelerar as atividades, já que apesar
+de ser monitorado o desenvolvimento do final de semana para uma vida profissional correta esses
+finais de semana devem ser para mim.
+A máquina virtualizada do CentOS permitiu realizar as anotações de forma tranquila na máquina 
+assim fiz a anotações e atualizei o repositório de forma tranquila.
+

@@ -71,7 +71,7 @@ Agora podemos executar o comando SELECT 1; (precisa ser em maiúsculo senão ret
 Executei o comando acima no CentOS e tudo certo.
 
 No Windows durante a instalação ele solicita uma senha para o usuario master. No demais sistemas operacionais podemos fazer isso com o 
-comando abaixo:  
+comando abaixo:  </br>
 **ALTER USER nome_de_usuario PASSWORD 'senha';**
 
 Se tudo tiver ocorrido ok retorna ALTER ROLE.
@@ -84,8 +84,8 @@ Após a configuração da senha precisamos editar o arquivo pg_hba.conf
 
 Agora iremos configurar os campos nas seguintes linhas:
 
-'#' Database administrative login by Unix domain socket
-local   all             postgres                               peer
+'#' Database administrative login by Unix domain socket </br>
+local   all             postgres                        </br>   peer
 
 '#' TYPE  DATABASE        USER            ADDRESS                 METHOD
 
