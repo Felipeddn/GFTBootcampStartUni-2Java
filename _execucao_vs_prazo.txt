@@ -81,3 +81,8 @@ finais de semana devem ser para mim.
 A máquina virtualizada do CentOS permitiu realizar as anotações de forma tranquila na máquina 
 assim fiz a anotações e atualizei o repositório de forma tranquila.
 
+26/06 -> Aula 3 diversos conceitos sobre banco de dados
+5 horas e 26 minutos (dedicação tranquilizadora)
+Hoje gastei um bom tempo copiando os conceitos para fixar estou pensando sobre esse comportamento
+para aprendizado, mas acho importante mesmo demorando para finalizar o curso.
+hoje foi tratado vários conceitos de banco de dados.
