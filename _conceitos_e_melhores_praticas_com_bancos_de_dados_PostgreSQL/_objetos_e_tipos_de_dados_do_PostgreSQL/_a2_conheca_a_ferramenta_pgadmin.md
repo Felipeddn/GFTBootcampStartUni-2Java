@@ -20,7 +20,7 @@ No Ubuntu ele fica localizado no diretório etc/postgresql/versao/nome_do_cluste
 No CentOS está um pouco dificil achar o local do arquivo postgresql.conf no diretório PGDATA. </br>
 https://www.google.com/search?q=onde+fica+o+arquivo+postgresql.conf+do+postgresql+no+centos+8&client=firefox-b-e&ei=90rWYIXxIcfU1sQPp-m8uA8&oq=onde+fica+o+arquivo+postgresql.conf+do+postgresql+no+centos+8&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAghEApKBAhBGABQ6XRYo-gBYKSVAmgJcAJ4AIABhwOIAbsvkgEINC4zOS4xLjKYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=gws-wiz&ved=0ahUKEwjFyJ_L3bPxAhVHqpUCHac0D_cQ4dUDCA0&uact=5
 
-O link acima me ajudou a achar a resposta e segue o caminho do arquivo postgresql.conf no Cent0S
+O link acima me ajudou a achar a resposta e segue o caminho do arquivo postgresql.conf no Cent0S, a aula 1 também fala do caminho.
 
 NO CentOS o caminho do arquivo fica var/lib/pgsql/versao/data/postgresql.conf essa localização é mostrada na aula 1 o que é o arquivo 
 postgresql.conf. Para abrir o arquivo e edita-lo basta usar o comando: </br>

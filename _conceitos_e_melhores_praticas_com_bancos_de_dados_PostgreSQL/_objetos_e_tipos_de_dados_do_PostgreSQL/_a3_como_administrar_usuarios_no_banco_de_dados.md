@@ -97,13 +97,13 @@ Está depreciada. mas existe por conta de compatibilidade.
 Agora baseado nos exemplos do início do vídeo se fossemos criar os perfis usado como exemplos eles assumiriam as seguintes características no 
 momento de sua criação.
 
-CREATE ROLE administradores
-CREATE DB
-CREATE ROLE 
-INHERIT
-NOLOGIN
-REPLICATION
-BYPASSRLS
+CREATE ROLE administradores </br>
+CREATE DB </br>
+CREATE ROLE  </br>
+INHERIT  </br>
+NOLOGIN  </br>
+REPLICATION  </br>
+BYPASSRLS  </br>
 CONNECTION LIMIT -1;
 
 Esse perfil pode, criar banco de dados, criar perfis, herda características de grupo que fizer parte, não pode se conectar ao banco de dados pode 
