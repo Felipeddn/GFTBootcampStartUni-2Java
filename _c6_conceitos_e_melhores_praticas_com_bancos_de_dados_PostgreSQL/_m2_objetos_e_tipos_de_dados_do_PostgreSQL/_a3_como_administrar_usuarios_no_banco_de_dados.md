@@ -385,7 +385,7 @@ após isso seguimos para o terminal e conectamos com o perfil daniel novamente: 
 **psql -U daniel auladb**
 
 Executamos o mesmo comando para acessar a tabela:  </br>
-**SELECT nome FROM teste;
+**SELECT nome FROM teste;**
 
 e o retorno é:  </br>
 nome 
@@ -403,3 +403,5 @@ ERROR:  permission denied for table teste
 Dessa forma práticamos permissões e outros comandos do PostgreSQL.
 
 Esses comandos são importantes na parte de segurança dos bancos de dados.
+
+Aula finalizada!
