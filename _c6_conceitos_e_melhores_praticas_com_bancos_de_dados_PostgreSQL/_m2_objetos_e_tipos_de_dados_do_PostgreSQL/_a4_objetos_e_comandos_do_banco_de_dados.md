@@ -22,6 +22,9 @@ Por exemplo: schema public e schema curso podem ter tabelas com o mesmo nome (te
 Objetos  </br>
 São as tabelas, views, functions, types, sequences, entre outros, pertencentes ao sch...
 
+Esses comandos foram pegos na documentação do PostgreSQL, cortesia do mentor Daniel.   
+https://www.postgresql.org/docs/current/sql-commands.html
+
 Sintaxe para criar Database, mudar nome e excluir banco de dados.  </br>
 CREATE DATABASE name  </br>
 
@@ -99,14 +102,16 @@ tabela.
 
 * Os atributos identificadores devem ser o conjunto mínimo que pode identificar cada instância de uma entidade.
 
-* Não devem ser usadas chave externas.
+* Não devem ser usadas chave externas, apesar de existir exceções.
 
 * Não devem conter informações volátil.
 
 ### Foreign key / Chave estrangeira / FK
 
 Campo ou conjunto de campos que são referênciais de chaves primárias de outras tabelas ou da mesma tabela.  </br>
-Sua principal função e garantir a integridade referencial entre as tabelas.
+Sua principal função é garantir a integridade referencial entre as tabelas.
+
+exemplo presente no arquivo `_aula3_diagrama_relacionamento_entidade.svg`.
 
 ### Tipos de dados
 
@@ -193,3 +198,108 @@ DROP DATABASE dadosbancarios;
 CREATE SCHEMA IF NOT EXITS bancos; </br>
 ALTER SCHEMA bancos OWNER TO diretoria;  </br>
 DROP SCHEMA IF EXISTS bancos;
+
+CREATE TABLE [IF NOT EXISTS] [nome da tabela] (    
+    [nome do campo] [tipo] [regras] [opções],   
+    [nome do campo] [tipo] [regras] [opções],   
+    [nome do campo] [tipo] [regras] [opções]   
+);
+
+
+ALTER TABLE [nome da tabela] [opções];
+
+DROP TABLE [nome da tabela]; 
+	
+exemplos de comando   
+```sql   
+CREATE TABLE IF NOT EXISTS banco (   
+    codigo INTEGER PRIMARY KEY,  
+    nome VARCHAR(50) **NOT NULL**,   
+    data_criacao TIMESTAMP NOT NULL DEFAULT NOW(),   
+);
+
+CREATE TABLE IF NOT EXISTS banco(   
+    codigo INTEGER,   
+    nome VARCHAR(50) **NOT NULL**,   
+    data_criacao TIMESTAMP NOT NULL DEFAULT NOW()   
+    PRIMARY KEY (codigo)
+);
+``` 
+
+ALTER TABLE banco ADD COLUMN tem_poupanca BOOLEAN;
+
+DROP TABLE IF EXISTS banco;
+
+INSERT 
+
+INSERT INTO [nome da tabela] ([campos da tabela, outro campo da tabela, ...])   
+VALUES ([valores de acordo com a ordem dos campos acima, valor de outro campo da tabela, ...]);
+
+INSERT INTO [nome da tabela] ([campos da tabela, outro campo da tabela, ...])
+SELECT [valore de acordo com a ordem dos campos acima]
+
+exemplo prático
+
+```sql
+INSERT INTO banco (codigo, nome, data_criacao)   
+VALUES (100, 'Banco do Brasil', now())
+
+INSERT INTO banco (codigo, nome, data_criacao)    
+SELECT 100, Banco do Brasil, now();    
+```
+UPDATE 
+
+UPDATE [nome da tabela] SET   
+[campo1] = [novo valor do campo1],   
+[campo2] = [novo valor do campo2],   
+...   
+[WHERE + condições]
+
+**Atençao: muito cuidado com os updates. Sempre utilize-os com condição.**
+
+utilizar o update sem colocar a condição faz o comando ser valido para todos os objetos, ou seja, por exemplo se colocamos o comando update banco 
+santander sem a condição where todos os bancos de dados serão atualizados com o nome santander. Uma tremenda dor de cabeça...
+
+exemplo prático 
+
+UPDATE banco SET   
+codigo = 500   
+WHERE codigo = 100;
+
+UPDATE banco SET
+data_criacao = now()
+WHERE data_criacao IS NULL;
+
+DELETE 
+
+DELETE FROM [nome da tabela]
+[WHERE + condições]
+
+**Atenção: muito cuidado com os deletes. Sempre utilize-os com condição.**
+
+No comando delete usa-lo sem condição exclui toda a tabela.
+
+SELECT 
+
+SELECT [campos de tabela]
+FROM [nome da tabela]
+[WHERE + condições]
+
+DICA DE BOAS PRÁTICAS = Evite sempre que puder o SELECT * esse comando retorna todos os registros de uma tabela e nem sempre precisamos de todos 
+eles, as ferramentas ORM costumam utilizar ele, então é interessante sempre ficar de olho no uso dos mesmo. tente usar select id, por exemplo, 
+usar o comando select * isso consome muito recurso porque os dados tem um tamanho que será utilizado pelos sistemas computacionais.
+
+exemplo prático 
+
+```sql
+SELECT codigo, nome   
+FROM banco;
+
+SELECT codigo, nome   
+FROM banco   
+WHERE data_criacao > '2019-10-15 15:00:001'
+```
+
+MÃO NA MASSA !!!
+
+mão na massa inserido no arquivo `_aula4_comandos_ddl_da_aula_para_criar_tabela.sql` 

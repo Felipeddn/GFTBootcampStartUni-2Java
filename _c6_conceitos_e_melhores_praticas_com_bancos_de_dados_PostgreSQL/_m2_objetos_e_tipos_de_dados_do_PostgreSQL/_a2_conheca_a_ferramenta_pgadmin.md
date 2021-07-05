@@ -66,7 +66,7 @@ O comando psql aceita alguns argumentos como:
 Esses parametros são padrões e serão subententidos caso não seja digitado  
 o ultimo parametro é o banco de dados que se for ocultado será conectado ao banco de dados do usuário.
 
-Agora podemos executar o comando SELECT 1; (precisa ser em maiúsculo senão retorna erro).
+Agora podemos executar o comando SELECT 1; 
 
 Executei o comando acima no CentOS e tudo certo.
 
