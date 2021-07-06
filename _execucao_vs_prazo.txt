@@ -86,3 +86,14 @@ assim fiz a anotações e atualizei o repositório de forma tranquila.
 Hoje gastei um bom tempo copiando os conceitos para fixar estou pensando sobre esse comportamento
 para aprendizado, mas acho importante mesmo demorando para finalizar o curso.
 hoje foi tratado vários conceitos de banco de dados.
+
+02/07 -> Aula 4 Objetos e comandos do banco de dados 
+1 hora e 4 minutos (abaixo da dedicação miníma)
+Hoje fiz cuidados em relação a minha saúde bucal e por conta de dores tive que ficar de repouso 
+um tempo por conta da dor. mas ainda consegui práticar a parte teórica dos comandos o que é muito
+bom, amanha será um mão na massa do banco de dados estou bem animado.
+
+05/07 -> Aula 1 do módulo 3 Conheça o DML e o Truncate
+06 horas 
+A prática de duas aulas com comandos práticado no PostgreSQL e retomada de alguns conceitos. Realização de um teste de módulo.
+Hoje foi bem proveitoso, e agora é manter esse ritmo para finalizar o Bootcamp no prazo.
