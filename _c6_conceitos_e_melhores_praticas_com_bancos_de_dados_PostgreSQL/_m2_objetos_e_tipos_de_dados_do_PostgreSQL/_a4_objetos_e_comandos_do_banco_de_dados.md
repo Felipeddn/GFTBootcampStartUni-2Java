@@ -303,3 +303,7 @@ WHERE data_criacao > '2019-10-15 15:00:001'
 MÃO NA MASSA !!!
 
 mão na massa inserido no arquivo `_aula4_comandos_ddl_da_aula_para_criar_tabela.sql` 
+
+
+dados do arquivo do daniel de inserções na tabela encontra-se no arquivo `_aula4_insercoes_do_daniel_em_bd.sql`
+
