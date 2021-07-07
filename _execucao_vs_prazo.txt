@@ -94,6 +94,13 @@ um tempo por conta da dor. mas ainda consegui práticar a parte teórica dos com
 bom, amanha será um mão na massa do banco de dados estou bem animado.
 
 05/07 -> Aula 1 do módulo 3 Conheça o DML e o Truncate
-06 horas 
+06 horas (estágio)
 A prática de duas aulas com comandos práticado no PostgreSQL e retomada de alguns conceitos. Realização de um teste de módulo.
 Hoje foi bem proveitoso, e agora é manter esse ritmo para finalizar o Bootcamp no prazo.
+
+06/07 -> Aula 1 do Módulo 4 e Finalizado Módulo 3
+6 horas  e 1 minutos (estágio)
+Progredi muito hoje pratiquei bastante conceitos e comandos de banco de dados apesar de reconhecer
+que temas bastante dificil estão sendo abordados no curso. Está sendo muito legal cumprir esse 
+horario de estágio. Minha meta é me manter assim durante toda a semana para com certeza chegar 
+no dia 19 com os projetos entregues e com o Diploma do Bootcamp GFT.
