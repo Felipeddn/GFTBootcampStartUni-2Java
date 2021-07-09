@@ -104,3 +104,12 @@ Progredi muito hoje pratiquei bastante conceitos e comandos de banco de dados ap
 que temas bastante dificil estão sendo abordados no curso. Está sendo muito legal cumprir esse 
 horario de estágio. Minha meta é me manter assim durante toda a semana para com certeza chegar 
 no dia 19 com os projetos entregues e com o Diploma do Bootcamp GFT.
+
+08/07 -> Aula 1 modulo 4 finalizado
+2 horas e 30 minutos (dedicação minima) 
+Progredi na prática de views, entendi a importância delas e foi bem legal entender que views recursivas pode ser um recurso para o programador usar 
+uma única vez na programação e se manter funcional mesmo com a inclusão de novos dados na tabela. Fora o fato da segurança adicionada as views, vou 
+me esforçar para dominar esse conceito. O Desafio me deixou curioso de como fazemos no dia a dia da empresa quando surge um desafio maior que nosso 
+repertório já que a produtividade da empresa não pode parar, a quem o profissional recorre em uma dificuldade? 
+
+

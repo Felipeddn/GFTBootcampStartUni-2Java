@@ -17,10 +17,10 @@ Tipos de Joins que podemos usar
 INNER JOIN   
 conceito gráfico do INNER JOIN no arquivo `_aula3_inner_join.png`
 
-COMANDO (INNER) JOIN
-SELECT tabela_1.campos, tabela_2.campos 
-FROM tabela_1
-JOIN tabela_2
+COMANDO (INNER) JOIN   
+SELECT tabela_1.campos, tabela_2.campos   
+FROM tabela_1   
+JOIN tabela_2   
  ON tabela_2.campo = tabela_1.campo;
 
 Uma boa prática na parte do ON é usar campos que são foreign keys ou primary keys para melhorar a performance. Podemos fazer sem as FK e as PK 
