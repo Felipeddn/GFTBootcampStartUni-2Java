@@ -20,6 +20,7 @@ inicial.
 
 ...IF EXISTS Por exemplo é um código de Idempotência.
 
+sobre o comentário no vídeo do Daniel de reparar que alguns códigos não tinham o comando ... IF NOT EXISTS ...
 eu reparei e arrumei, que maneiro, mas o importante é que a ausência de idempotência trás problemas para a aplicação. Então é uma boa prática 
 garantir esse recurso no código.
 
