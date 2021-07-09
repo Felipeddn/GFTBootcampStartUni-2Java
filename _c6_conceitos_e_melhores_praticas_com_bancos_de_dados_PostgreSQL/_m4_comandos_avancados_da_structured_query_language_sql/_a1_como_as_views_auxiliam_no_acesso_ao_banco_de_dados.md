@@ -21,6 +21,9 @@ superior ao acesso direto no banco de dados.
 
 Idempotências em views
 
+Usar o recurso "OR REPLACE" durante o comando CREATE é uma forma de garantir a Idempotência do comando, evitando o erro durante a execução desse 
+comando. 
+
 Comandos de SELECT em Views
 
 CREATE OR REPLACE VIEW vw_bancos AS (
@@ -247,6 +250,6 @@ E agora o mão na massa para poder práticar esses conceitos!!
 
 Os comandos estão no arquivo `_aula1_modulo4_comandos_praticados_na_aula.sql`
 
-
+Finalizado a aula.
 
 
