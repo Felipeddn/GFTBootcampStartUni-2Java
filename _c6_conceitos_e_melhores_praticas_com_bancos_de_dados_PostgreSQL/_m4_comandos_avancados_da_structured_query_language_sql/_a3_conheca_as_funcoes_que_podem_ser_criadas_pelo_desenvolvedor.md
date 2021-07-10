@@ -35,6 +35,10 @@ O PostgreSQL permite escrever essas funções nas linguagens citadas acima e pod
 
 https://www.postgresql.org/docs/13/external-pl.html	
 
+Esse link trata dos diversos assuntos tratados na aula basta navegar pelas opções para entender melhor.   
+
+https://www.postgresql.org/docs/13/xfunc-sql.html
+
 Comando para criar funções 
 
 CREATE [OR REPLACE] FUNCTION 
