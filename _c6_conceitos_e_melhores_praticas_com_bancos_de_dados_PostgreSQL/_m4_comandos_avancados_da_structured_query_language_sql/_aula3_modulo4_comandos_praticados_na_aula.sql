@@ -112,3 +112,14 @@ SELECT numero, nome, ativo FROM banco WHERE numero = 5433;
 -- Desafio, fazer uma função para inserir um banco, para inserir agencia, para inserir cliente, para trabalhar com 
 -- os tipo de transação para os clientes. haverá um código com exemplos, mas a próxima aula será trabalhado views e 
 -- funções.
+
+-- para verificar informações dos atributos da tabela
+SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'banco';
+SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'agencia';
+SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'cliente';
+
+CREATE OR REPLACE FUNCTION fc_inserir_nova_agencia (novo_banco_numero, novo_numero, novo_nome, novo_ativo, nova_data)
+
+
+
+
