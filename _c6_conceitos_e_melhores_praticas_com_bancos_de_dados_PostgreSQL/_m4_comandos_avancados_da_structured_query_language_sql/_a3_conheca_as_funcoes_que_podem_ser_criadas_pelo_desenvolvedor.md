@@ -42,21 +42,21 @@ https://www.postgresql.org/docs/13/xfunc-sql.html
 Comando para criar funções 
 
 CREATE [OR REPLACE] FUNCTION 
-    *nome_da_função* ([*argmode*][*argname*]*argtype*[{DEFAULT | =} *default_expr*][,...])
-    [RETURN *rettype*
-     | RETURNS TABLE (*column_name* *column_type* [,...])]
-  { LANGUAGE *lang_name*
-    | TRANSFORM { FOR TYPE *type_name* } [,...]
-    | WINDOW 
-    | IMMUTABLE | STABLE | VOLATILE | [ NOT ] LEAKPROOF
-    | CALLED ON NULL INPUT | RETURN NULL ON NULL INPUT | STRICT 
-    | [ EXTERNAL ] SECURITY INVOKER | [ EXTERNAL ] SECURITY DEFINER
-    | PARALLEL { UNSAFE | RESTRICTED | SAFE } 
-    | COST *execution_cost*
-    | ROWS *result_rows*
-    | SET configuration_parameter { TO *value* | = *value* | FROM CURRENT }
-    | AS '*definition*'
-    | AS '*obj_file*', '*link_symbol*'
+    *nome_da_função* ([*argmode*][*argname*]*argtype*[{DEFAULT | =} *default_expr*][,...])   
+    [RETURN *rettype*    
+     | RETURNS TABLE (*column_name* *column_type* [,...])]    
+  { LANGUAGE *lang_name*    
+    | TRANSFORM { FOR TYPE *type_name* } [,...]    
+    | WINDOW     
+    | IMMUTABLE | STABLE | VOLATILE | [ NOT ] LEAKPROOF    
+    | CALLED ON NULL INPUT | RETURN NULL ON NULL INPUT | STRICT    
+    | [ EXTERNAL ] SECURITY INVOKER | [ EXTERNAL ] SECURITY DEFINER   
+    | PARALLEL { UNSAFE | RESTRICTED | SAFE }    
+    | COST *execution_cost*       
+    | ROWS *result_rows*     
+    | SET configuration_parameter { TO *value* | = *value* | FROM CURRENT }   
+    | AS '*definition*'   
+    | AS '*obj_file*', '*link_symbol*'   
   }
 
 A Idempotência das funções se faz com o comando "OR REPLACE"
@@ -75,11 +75,11 @@ RETURNS
  * BOOLEAN   
  * ROW   
  * TABLE   
- * JSON 
+ * JSON  
 
 LANGUAGE 
 
-* **SQL**   
+* **SQL**      
 * **PLPGSQL**    
 * PLJAVA   
 * PLPY   
@@ -113,24 +113,24 @@ SEGURANÇA E BOAS PRÁTICAS
 Padrão. Se qualquer um dos parâmetros/argumentos for NULL, a função será executada. As documentações recomenda esse pois é responsabilidade do 
 programador e também uma boa prática que ele faça o tratamento dos dados inseridos.
 
-* RETURNS NULL ON NULL INPUT 
+* RETURNS NULL ON NULL INPUT  
 Se qualquer um dos parâmetros/argumentos for NULL, a função retornará NULL. Caso o programador não deseja fazer o tratamento dos dados essa opção 
 deve ser usada. 
 
 SEGURANÇA E BOAS PRÁTICAS 
 
-* SECURITY INVOKER   
+* SECURITY INVOKER    
 Padrão. A função é executada com permissões de quem executa.
 
-* SECURITY DEFINER 
+* SECURITY DEFINER   
 A função é executada com permissões de quem criou a função.
 
 RECURSOS 
 
-* COST   
+* COST    
 Custo/row em unidades de CPU. 
 
-* ROW   
+* ROW    
 Número estimados de linhas que será analisada pelo planner.
 
 Podemos mexer nesses parametros para controlar o uso de recurso e as performances desejadas na definição das funções.
