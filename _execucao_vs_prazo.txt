@@ -113,3 +113,11 @@ me esforçar para dominar esse conceito. O Desafio me deixou curioso de como faz
 repertório já que a produtividade da empresa não pode parar, a quem o profissional recorre em uma dificuldade? 
 
 
+12/07 -> Aula 1 do curso de Desenvolvimento básico Java.
+6 horas e 20 minutos (estágio)
+Levou um tempo até entender bem o que ambiente para instalar o Java. No Unbuntu tive algumas 
+dificuldades com o download do arquivo para instalação do Java, inclusive vou deixar ele 
+baixando.
+
+Mas no CentOS o ambiente está preparado para a prática. Então é só retomar as aulas se ocorrer 
+algo de errado com o Unbuntu mas acho que é só uma questão de atenção para dar tudo certo.
