@@ -113,3 +113,10 @@ me esforçar para dominar esse conceito. O Desafio me deixou curioso de como faz
 repertório já que a produtividade da empresa não pode parar, a quem o profissional recorre em uma dificuldade? 
 
 
+13/07 -> Aula 1 Modulo 2 Curso 7 - Basico Java
+7 horas (estágio)
+Finalizando o ambiente Java de programação no Ubuntu instalei todas as ferramentas para produzir código Java, também pratiquei alguns 
+comandos do projeto, iniciar, construir, executar, encerrar, finalizei o questionário do módulo 1 finalizei a aula 1 do módulo 2 onde foi 
+abordado diversos conceitos sobre o java e foi compilado um código Java na "unha" e finalizei o questionário do módulo 2. Dessa forma 
+acredito que foi um dia muito produtivo mesmo, e vários desafios foi superado inclusive o mais dificil foi instalar o Java 11 que tem suas 
+particularidades, mas importante já que no initializr é uma das opções de projeto em Maven e Gradle.
