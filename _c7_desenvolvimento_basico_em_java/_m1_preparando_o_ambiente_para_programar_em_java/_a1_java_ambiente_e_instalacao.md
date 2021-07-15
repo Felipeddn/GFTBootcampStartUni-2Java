@@ -314,3 +314,112 @@ Aceitamos os termos de uso. De uma lida antes.
 E já podemos criar um projeto ou abrir um projeto. 
 
 Fim da aula e os ambientes todos configurados o Linux Ubuntu deu trabalho rs.
+
+Eu resolvi instalar essa aplicação direto no windows pois acredito que vou ganhar uma produtividade, não havia feito antes porque quero deixar meu windows limpo e usar máquinas 
+virtuais acho que é uma estratégia valida já que muito do que vou fazer é no ambito de aprendizado, dessa forma eu não sobre carrego meu sistema operacional com diversas 
+ferramentas, mas no caso do Java achei interessante então vou instalar
+
+Estou me guiando por esse vídeo 
+
+https://www.youtube.com/watch?v=A76YPtMcMHY, contribuição de um colega chamado Kaique, dessa forma fica registrado aqui meu agradecimento por esse auxilio valioso.
+
+A instalação do Java foi fácil e rapida o download foi realizado pelo site:
+
+https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+
+A instalação é realmente simples dois next e ele já instalou e deixou um link para informações mais aprofundadas
+
+https://docs.oracle.com/en/java/javase/11/
+
+Após a instalação configuramos as variaveis de ambiente 
+
+Na barra de pesquisa do windows digite variaveis de ambiente, caso apareça antes mesmo de terminar escolha **Editar as variáveis de ambiente do sistema**
+
+abrirá uma janela escolha a aba avançado e aperte o botão variáveis de ambiente
+
+Em **Variáveis de usuário para ...** aperte o botão novo
+
+abrirá uma janela pedindo o nome da variável (JAVA_HOME) e o valor da variável (o caminho da instalação do java, quando você está clicando em next tem lá anota em um papel se tiver dificuldades com essa etapa.)
+
+Apos inserir as informações e digitar ok agora é hora de selecionar **Path** nas **Variáveis do sistema** apertar o botão **editar**, abrirá uma janela selecione **novo** e colocar o caminho da instalação mais **\bin** no fim do nome.
+
+Se tudo der certo basta abrir o Prompt de comando e digitar **java --version**
+
+se o retorno for algo assim:
+
+java 11.0.11 2021-04-20 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.11+9-LTS-194)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.11+9-LTS-194, mixed mode)
+
+está tudo ok.
+
+Instalando o Gradle
+
+No site https://gradle.org/ aperte o botão **1. install gradle** e na página que abrir escolha a opção Installing manually, no step 1 clique em download abrirá mais um página
+
+Nessa página haverá diversas versões eu escolhi a mais recente 7.1.1 mas vai da sua necessidade e projeto que está trabalhando, no vídeo a Beatriz sugere a versão completa vou 
+baixar essa versão por segurança mas acredito que o binario (binary) seria o suficiente.
+
+Baixado ele virá zipado (compactado) no processo de descompactação você pode escolher o caminho selecione na pasta Java dentro de arquivos e programas, ou antes de descompactar recorte esse arquivo e descompacte ele na pasta Java, talvez seja necessário dar autorização de administrador para esse processo, leia com atenção e conceda.
+
+Copie o caminho do gradle mas da pasta bin 
+
+e abre a variável de ambiente novamente selecione path nas variaveis de usuario, esse processo já foi realizado então se for necessário leia ele acima, clique em editar, depois em novo, cole o caminho que foi copiado. digite ok até sair das janelas.
+
+Para verificar se funcionou digite o comando no prompt de comando   
+gradle --version
+
+se aparecer algo parecido com isso tudo ocorreu certo
+
+Welcome to Gradle 7.1.1!
+
+Here are the highlights of this release:
+ - Faster incremental Java compilation
+ - Easier source set configuration in the Kotlin DSL
+
+For more details see https://docs.gradle.org/7.1.1/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 7.1.1
+------------------------------------------------------------
+
+Build time:   2021-07-02 12:16:43 UTC
+Revision:     774525a055494e0ece39f522ac7ad17498ce032c
+
+Kotlin:       1.4.31
+Groovy:       3.0.7
+Ant:          Apache Ant(TM) version 1.10.9 compiled on September 27 2020
+JVM:          11.0.11 (Oracle Corporation 11.0.11+9-LTS-194)
+OS:           Windows 10 10.0 amd64
+
+Agora vou instalar o Maven
+
+Acessei o site https://maven.apache.org/
+
+aperte no download em use, abrirá uma nova janela selecione o arquivo na parte debaixo do site selecione a opção binary zip arquive na coluna do link, ele iniciará o download automáticamente.
+
+Após o download extraia o arquivo na pasta Java.
+
+Copie o caminho da pasta maven, abra as variaveis de ambiente, em variaveis de usuario selecione o botão novo, digite no nome da variável M2_HOME e coloque o caminho da pasta na opção valor de variável
+
+Selecione Path e aperte editar, cole o caminho nele também mas adicione o \bin
+
+Para verificar abra o prompt de comando e digite o comando    
+mvn -version 
+
+se aparecer o seguinte resultado estará tudo ok
+
+Maven home: C:\Program Files\Java\apache-maven-3.8.1\bin\..
+Java version: 11.0.11, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-11.0.11
+Default locale: pt_BR, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+tudo ok com as ferramentas agora é instalar o IDE intellij.
+
+acessei o link https://www.jetbrains.com/pt-br/idea/download/#section=windows apertei no botão baixar da versão community
+
+Depois de baixar basta dois cliques next, escolha onde salvar recomendo deixar o local sugerido clique next, ele vai perguntar se deseja criar um shortcut ou atalho na area de trabalho fique a vontade para escolher, na mesma tela se deseja criar uma variavel no path, e quais arquivos você deseja associar, escolhi java e groovy a opção de contexto de menu eu marquei por um detalhe do curso que eu acredito que tem a ver e cliquei next, cliquei install e agora só ser feliz.
+
+Ele perguntou se eu desejava reiniciar eu escolhi depois porque estava com outras tarefas abertas e pronto ambiente configurado super fácil, maravilha de ambiente.
+
