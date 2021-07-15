@@ -128,3 +128,11 @@ comandos do projeto, iniciar, construir, executar, encerrar, finalizei o questio
 abordado diversos conceitos sobre o java e foi compilado um código Java na "unha" e finalizei o questionário do módulo 2. Dessa forma 
 acredito que foi um dia muito produtivo mesmo, e vários desafios foi superado inclusive o mais dificil foi instalar o Java 11 que tem suas 
 particularidades, mas importante já que no initializr é uma das opções de projeto em Maven e Gradle.
+
+14/07 -> aula 1 módulo 3 Curso 7 - Java Básico
+2 horas e 25 minutos (dedicação miníma)
+Acabei me distraíndo um pouco e não me dediquei o suficiente, o prazo está bastante prejudicado por conta da metodologia adotada para 
+estudo mas acredito que nesse formato o aprendizado é mais robusto. hoje pratiquei um pouco dos conceitos de Java e criei alguns códigos
+a sintaxe de uma classe está se tornando um pouco familiar para mim, estou gostando de algumas características da linguagem java. Pratiquei 
+na máquina virtual com Ubuntu estou considerando a ideia de instalar a ide os frameworks no windows e práticar no windows para agilizar o 
+acesso as ferramentas e a performance do mesmo. foi bem interessante as aulas, vou tentar focar mais amanhã.
