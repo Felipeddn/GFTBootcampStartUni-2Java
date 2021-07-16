@@ -136,3 +136,11 @@ estudo mas acredito que nesse formato o aprendizado é mais robusto. hoje pratiq
 a sintaxe de uma classe está se tornando um pouco familiar para mim, estou gostando de algumas características da linguagem java. Pratiquei 
 na máquina virtual com Ubuntu estou considerando a ideia de instalar a ide os frameworks no windows e práticar no windows para agilizar o 
 acesso as ferramentas e a performance do mesmo. foi bem interessante as aulas, vou tentar focar mais amanhã.
+
+15/07 -> aula 3 modulo 3 curso 7 - java básico modificadores de acesso
+1 hora e 20 minutos (menos que a dedicação miníma)
+gastei 4 horas 39 minutos do dia revisitando alguns conceitos de java no curso em vídeo, 
+preparei o ambiente no windows e prátiquei um pouco da aula parei em um desafio do formato do 
+código provavelmente terei dor de cabeça com isso, amanhã vou verificar as soluções possíveis para ele, procurar algo no forum da Dio e tudo 
+mais. Foi preocupante a produtividade em relação ao curso DIO mas acredito que tenho que olhar um pouco para a base não tem jeito.
+

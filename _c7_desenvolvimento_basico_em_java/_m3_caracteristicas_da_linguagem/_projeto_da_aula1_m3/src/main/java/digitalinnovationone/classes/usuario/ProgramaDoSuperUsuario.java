@@ -6,6 +6,8 @@ public class ProgramaDoSuperUsuario {
         // the words under gray box is the arguments to constructor method.
         final var superUsuario = new SuperUsuario("root","1234");
 
+        // superUsuario.login; 
+
         superUsuario.getLogin();
 
         superUsuario.getSenha();

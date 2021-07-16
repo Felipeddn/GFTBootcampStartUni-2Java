@@ -1,23 +1,31 @@
 digitalinnovationone/tipos/naoprimitivos/Unboxing.java
  digitalinnovationone.tipos.naoprimitivos.Unboxing
-digitalinnovationone/tipos/tipagem/TipagemEstatica.java
- digitalinnovationone.tipos.tipagem.TipagemEstatica
+digitalinnovationone/classes/pessoa/ProgramaPessoaFisica.java
+ digitalinnovationone.classes.pessoa.ProgramaPessoaFisica
 digitalinnovationone/classes/usuario/ProgramaDoSuperUsuario.java
  digitalinnovationone.classes.usuario.ProgramaDoSuperUsuario
 digitalinnovationone/tipos/naoprimitivos/NaoPrimitivos.java
  digitalinnovationone.tipos.naoprimitivos.NaoPrimitivos
 digitalinnovationone/tipos/wrappers/Wrappers.java
  digitalinnovationone.tipos.wrappers.Wrappers
-digitalinnovationone/classes/usuario/SuperUsuario.java
- digitalinnovationone.classes.usuario.SuperUsuario
 digitalinnovationone/tipos/tipagem/TipagemForte.java
  digitalinnovationone.tipos.tipagem.TipagemForte
+digitalinnovationone/classes/usuario/SuperUsuario.java
+ digitalinnovationone.classes.usuario.SuperUsuario
 digitalinnovationone/Programa.java
  digitalinnovationone.Programa
-digitalinnovationone/tipos/tipagem/TipoInferido.java
- digitalinnovationone.tipos.tipagem.TipoInferido
 digitalinnovationone/tipos/primitivos/DefaultValues.java
  digitalinnovationone.tipos.primitivos.Default
  digitalinnovationone.tipos.primitivos.DefaultValues
+digitalinnovationone/tipos/tipagem/TipoInferido.java
+ digitalinnovationone.tipos.tipagem.TipoInferido
 digitalinnovationone/tipos/primitivos/Primitivos.java
  digitalinnovationone.tipos.primitivos.Primitivos
+digitalinnovationone/tipos/tipagem/TipagemEstatica.java
+ digitalinnovationone.tipos.tipagem.TipagemEstatica
+digitalinnovationone/classes/pessoa/ProgramaDoUsuario.java
+ digitalinnovationone.classes.pessoa.ProgramaDoUsuario
+digitalinnovationone/classes/pessoa/Pessoa.java
+ digitalinnovationone.classes.pessoa.Pessoa
+digitalinnovationone/classes/pessoa/PessoaFisica.java
+ digitalinnovationone.classes.pessoa.PessoaFisica
